@@ -23,9 +23,13 @@ I'm learning backend development through coursework and personal projects. I enj
 </p>
 <p>
   <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit" />
+  <img src="https://img.shields.io/badge/Testcontainers-243B53?style=for-the-badge&logo=testcontainers&logoColor=white" alt="Testcontainers" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven" />
 </p>
+
+**Also used in projects:** Spring Security · Spring Data JPA · Swagger/OpenAPI · Flyway.
 
 ---
 
