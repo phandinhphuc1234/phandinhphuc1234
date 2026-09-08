@@ -1,77 +1,58 @@
-<p align="left">
-  <img src="./assets/header.svg" alt="Backend engineering — building for correctness" width="100%" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1600&color=F03B9E&center=true&vCenter=true&width=600&height=65&lines=Phan+%C4%90%C3%ACnh+Ph%C3%BAc;Java+Backend+Developer" alt="Phan Đình Phúc — Java Backend Developer" />
 </p>
 
-# Phan Dinh Phuc
+<p align="center">
+  <b>Java & Spring Boot</b> &nbsp; · &nbsp; Backend Engineering &nbsp; · &nbsp; Vietnam
+</p>
 
-**Java Backend Developer · Information Technology Student at UIT, VNU-HCM**
+<h2>👋 Hi there, I'm Phuc</h2>
 
-Building reliable backend systems with Java and Spring Boot. Interested in what happens when requests race, messages retry, and data must stay consistent.
+<img align="right" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" alt="Docker whale" width="165" />
 
-Ho Chi Minh City, Vietnam · **Open to Software Engineer / Java Backend internships**
+I'm an Information Technology student at **UIT, VNU-HCM**, with a strong interest in **Java backend development**.
 
-[Selected projects](#selected-projects) · [Tech stack](#tech-stack) · [Currently learning](#currently-learning)
+I enjoy learning how systems work behind the scenes — from APIs and database transactions to concurrency and event-driven architecture. I'm always exploring, building, and improving one step at a time.
 
-## About
+- 🌱 Learning **Java concurrency, Spring Boot internals & distributed systems**.
+- 💬 Happy to talk about **Java, Spring Boot, PostgreSQL, Redis & Kafka**.
+- 🎯 Open to **Software Engineer / Java Backend internships**.
 
-I'm an Information Technology student at the University of Information Technology, VNU-HCM, focused on Java backend engineering. I enjoy turning business workflows into APIs with clear boundaries, reliable transactions, and meaningful tests.
+<br clear="right" />
 
-My current work explores concurrency, data consistency, and event-driven architecture through a flash-sale platform and a library management system.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man animation of phandinhphuc1234's GitHub contributions" src="./assets/pacman-contribution-graph.svg" width="100%" />
+</picture>
 
-## Tech Stack
+<h2>📚 Languages and Tools</h2>
 
-| Area | Technologies |
-| :--- | :--- |
-| **Backend** | Java 21 · Spring Boot · Spring Security · Spring Data JPA |
-| **Data & messaging** | PostgreSQL · Redis · Apache Kafka |
-| **Testing** | JUnit 5 · Testcontainers · Integration & concurrency testing |
-| **Tools** | Docker · Git · Maven |
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/java/java-original.svg" alt="Java" title="Java" width="42" height="42" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/spring/spring-original.svg" alt="Spring Boot" title="Spring Boot" width="42" height="42" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" width="42" height="42" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/redis/redis-original.svg" alt="Redis" title="Redis" width="42" height="42" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/apachekafka/apachekafka-original.svg" alt="Apache Kafka" title="Apache Kafka" width="42" height="42" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="42" height="42" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" alt="Git" title="Git" width="42" height="42" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/maven/maven-original.svg" alt="Maven" title="Maven" width="42" height="42" /> &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/junit/junit-original.svg" alt="JUnit" title="JUnit" width="42" height="42" />
+</p>
 
-## Selected Projects
+<details>
+<summary><b>More about me, a backend enthusiast 🔥</b></summary>
 
-### 01 / High-Concurrency Flash Sale Engine
+### What I enjoy
 
-**Featured project** · `Java 21` `Spring Boot` `Redis` `Kafka` `PostgreSQL`
+- Designing clear APIs and keeping business logic easy to reason about.
+- Understanding transactions, locking, idempotency, and failure recovery.
+- Writing integration and concurrency tests with JUnit and Testcontainers.
+- Strengthening my data structures and algorithms fundamentals.
 
-A microservice backend exploring the hard parts of flash-sale purchasing: limited stock, concurrent requests, retries, and asynchronous order processing.
+### My everyday stack
 
-- **Atomic reservations:** Redis Lua validates campaign rules and reserves quota in one operation.
-- **Idempotent purchases:** request replay and conflict handling keep retries from creating duplicate reservations.
-- **Reliable events:** Kafka workflows and transactional outbox connect service boundaries.
-- **Concurrency tests:** integration tests cover overselling, reservation idempotency, and durable acceptance.
+**Java 21 · Spring Boot · Spring Security · Spring Data JPA**  
+**PostgreSQL · Redis · Kafka · JUnit 5 · Testcontainers · Docker · Git · Maven**
 
-[Explore the repository →](https://github.com/phandinhphuc1234/flash-sale) &nbsp; · &nbsp; [Architecture notes](https://github.com/phandinhphuc1234/flash-sale/tree/develop/docs/architecture) &nbsp; · &nbsp; [Reservation tests](https://github.com/phandinhphuc1234/flash-sale/tree/develop/services/flashsale-service/src/test/java/com/philia/flashsale/flashsale/reservation/integration)
-
----
-
-### 02 / Library Management System
-
-`Java 21` `Spring Boot` `PostgreSQL` `Redis`
-
-A backend for library circulation, inventory, and borrowing workflows, with a focus on consistency across checkout, return, and renewal operations.
-
-- JWT authentication and role-based access control.
-- PostgreSQL pessimistic locking and transactional circulation workflows.
-- Redis-backed idempotency, integration tests, and load-test scenarios.
-
-[Explore the repository →](https://github.com/phandinhphuc1234/SE330_BE)
-
----
-
-### 03 / Blockchain-Backed EHR
-
-**Team project · Contributor** · `Node.js` `Express.js` `MongoDB` `Ethereum`
-
-A team-built electronic health record backend integrating blockchain-based verification with patient, doctor, and access-management workflows. The project includes Swagger API documentation and smart contracts deployed through Hardhat.
-
-[Explore the repository →](https://github.com/Fizzisme/IE213_BE)
-
-## Currently Learning
-
-- **Java concurrency & Spring Boot internals** — understanding how backend code behaves under load.
-- **Database transactions & distributed systems** — reasoning about consistency and failure recovery.
-- **Data structures & algorithms** — strengthening problem-solving fundamentals.
-
----
-
-<sub>Focused on Java backend engineering. Open to internship opportunities and thoughtful technical collaboration.</sub>
+</details>
