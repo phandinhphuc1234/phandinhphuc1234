@@ -1,58 +1,43 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1600&color=F03B9E&center=true&vCenter=true&width=600&height=65&lines=Phan+%C4%90%C3%ACnh+Ph%C3%BAc;Java+Backend+Developer" alt="Phan Đình Phúc — Java Backend Developer" />
-</p>
+<p><sub><code>pdp.dev</code> &nbsp; / &nbsp; BACKEND PLAYGROUND</sub></p>
 
-<p align="center">
-  <b>Java & Spring Boot</b> &nbsp; · &nbsp; Backend Engineering &nbsp; · &nbsp; Vietnam
-</p>
+# Phan Đình Phúc
 
-<h2>👋 Hi there, I'm Phuc</h2>
-
-<img align="right" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" alt="Docker whale" width="165" />
-
-I'm an Information Technology student at **UIT, VNU-HCM**, with a strong interest in **Java backend development**.
-
-I enjoy learning how systems work behind the scenes — from APIs and database transactions to concurrency and event-driven architecture. I'm always exploring, building, and improving one step at a time.
-
-- 🌱 Learning **Java concurrency, Spring Boot internals & distributed systems**.
-- 💬 Happy to talk about **Java, Spring Boot, PostgreSQL, Redis & Kafka**.
-- 🎯 Open to **Software Engineer / Java Backend internships**.
-
-<br clear="right" />
+I like following a request past the endpoint — into the queue, through a transaction, and back again.  
+I'm an IT student at UIT, VNU-HCM, learning how to make those little journeys reliable with Java and Spring Boot.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man animation of phandinhphuc1234's GitHub contributions" src="./assets/pacman-contribution-graph.svg" width="100%" />
+  <source media="(max-width: 600px)" srcset="./assets/playground-mobile.svg" />
+  <img src="./assets/playground.svg" alt="Follow the request: an animated journey through an API, a queue, a worker, and a data store." width="100%" />
 </picture>
 
-<h2>📚 Languages and Tools</h2>
+## My toolkit
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/java/java-original.svg" alt="Java" title="Java" width="42" height="42" /> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/spring/spring-original.svg" alt="Spring Boot" title="Spring Boot" width="42" height="42" /> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" width="42" height="42" /> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/redis/redis-original.svg" alt="Redis" title="Redis" width="42" height="42" /> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/apachekafka/apachekafka-original.svg" alt="Apache Kafka" title="Apache Kafka" width="42" height="42" /> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="42" height="42" /> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" alt="Git" title="Git" width="42" height="42" /> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/maven/maven-original.svg" alt="Maven" title="Maven" width="42" height="42" /> &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/junit/junit-original.svg" alt="JUnit" title="JUnit" width="42" height="42" />
+<p>
+  <img src="./assets/build.svg" alt="" width="22" height="22" align="absmiddle" /> &nbsp; <strong>Build</strong><br />
+  Java 21 · Spring Boot · Spring Security · Spring Data JPA
 </p>
 
-<details>
-<summary><b>More about me, a backend enthusiast 🔥</b></summary>
+<p>
+  <img src="./assets/store.svg" alt="" width="22" height="22" align="absmiddle" /> &nbsp; <strong>Store &amp; Stream</strong><br />
+  PostgreSQL · Redis · Apache Kafka
+</p>
 
-### What I enjoy
+<p>
+  <img src="./assets/test.svg" alt="" width="22" height="22" align="absmiddle" /> &nbsp; <strong>Test &amp; Ship</strong><br />
+  JUnit 5 · Testcontainers · Docker · Git · Maven
+</p>
 
-- Designing clear APIs and keeping business logic easy to reason about.
-- Understanding transactions, locking, idempotency, and failure recovery.
-- Writing integration and concurrency tests with JUnit and Testcontainers.
-- Strengthening my data structures and algorithms fundamentals.
+## On my workbench
 
-### My everyday stack
+**01 / When requests race**  
+Exploring Java concurrency, locking, and what happens when two requests want the same thing.
 
-**Java 21 · Spring Boot · Spring Security · Spring Data JPA**  
-**PostgreSQL · Redis · Kafka · JUnit 5 · Testcontainers · Docker · Git · Maven**
+**02 / When messages arrive twice**  
+Learning about idempotency, retries, and recovery across service boundaries.
 
-</details>
+**03 / When a test needs the real thing**  
+Practicing integration testing with Testcontainers, real databases, and meaningful failure cases.
+
+---
+
+<sub>Curious about the moving parts. Learning by building.</sub>
