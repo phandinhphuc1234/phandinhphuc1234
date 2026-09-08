@@ -1,43 +1,32 @@
-<p><sub><code>pdp.dev</code> &nbsp; / &nbsp; BACKEND PLAYGROUND</sub></p>
+<h1 align="center">Hi 👋, I'm Phuc</h1>
 
-# Phan Đình Phúc
-
-I like following a request past the endpoint — into the queue, through a transaction, and back again.  
-I'm an IT student at UIT, VNU-HCM, learning how to make those little journeys reliable with Java and Spring Boot.
-
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/playground-mobile.svg" />
-  <img src="./assets/playground.svg" alt="Follow the request: an animated journey through an API, a queue, a worker, and a data store." width="100%" />
-</picture>
-
-## My toolkit
-
-<p>
-  <img src="./assets/build.svg" alt="" width="22" height="22" align="absmiddle" /> &nbsp; <strong>Build</strong><br />
-  Java 21 · Spring Boot · Spring Security · Spring Data JPA
+<p align="center">
+  <b>Phan Đình Phúc</b><br />
+  IT student at UIT, VNU-HCM · Interested in Java backend development
 </p>
 
-<p>
-  <img src="./assets/store.svg" alt="" width="22" height="22" align="absmiddle" /> &nbsp; <strong>Store &amp; Stream</strong><br />
-  PostgreSQL · Redis · Apache Kafka
-</p>
+I'm learning backend development through coursework and personal projects. I enjoy turning what I learn into working APIs, connecting them to databases, and writing tests to understand how they behave.
+
+- 🔨 **Building with:** Java and Spring Boot, with a focus on REST APIs, authentication, and database integration.
+- 🌱 **Currently learning:** Java concurrency, database transactions, and messaging with Kafka.
+- 🧪 **Practicing:** unit and integration testing with JUnit and Testcontainers.
+- 🎯 **Looking for:** Java Backend / Software Engineer internship opportunities.
+
+## 💻 Tech Stack
 
 <p>
-  <img src="./assets/test.svg" alt="" width="22" height="22" align="absmiddle" /> &nbsp; <strong>Test &amp; Ship</strong><br />
-  JUnit 5 · Testcontainers · Docker · Git · Maven
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Apache Kafka" />
 </p>
-
-## On my workbench
-
-**01 / When requests race**  
-Exploring Java concurrency, locking, and what happens when two requests want the same thing.
-
-**02 / When messages arrive twice**  
-Learning about idempotency, retries, and recovery across service boundaries.
-
-**03 / When a test needs the real thing**  
-Practicing integration testing with Testcontainers, real databases, and meaningful failure cases.
+<p>
+  <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
 
 ---
 
-<sub>Curious about the moving parts. Learning by building.</sub>
+<p align="center"><sub>Learning by building, testing, and asking better questions.</sub></p>
